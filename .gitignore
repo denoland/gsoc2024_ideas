@@ -1,0 +1,5 @@
+.DS_Store
+deno.lock
+_fresh/
+.env
+node_modules/
