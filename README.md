@@ -42,6 +42,13 @@ core features without waiting long periods of time for builds to complete. We ha
 started work on a mini version of Deno in deno_core that needs lots of work:
 inspector support, a functional REPL, worker infrastructure and more.
 
+### Benchmark Bot
+
+Deno has set of benchmarking tools that run benchmarks of various kinds for us. The
+bots need a lot of love to improve the quality of the code, make them more reliable
+and add more benchmarks. You'd need to work with Deno APIs, Github APIs and APIs
+from various cloud providers.
+
 ### 
 
 ## License
