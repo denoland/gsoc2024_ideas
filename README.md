@@ -35,6 +35,15 @@ executables created by
 Investigate what is making the compiled binaries large, and explore techniques
 to slim them down even further.
 
+### Build a mini-Deno in deno_core
+
+Deno requires a lot of dependencies to build, making it tough to iterate on some
+core features without waiting long periods of time for builds to complete. We have
+started work on a mini version of Deno in deno_core that needs lots of work:
+inspector support, a functional REPL, worker infrastructure and more.
+
+### 
+
 ## License
 
 MIT
