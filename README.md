@@ -49,6 +49,12 @@ bots need a lot of love to improve the quality of the code, make them more relia
 and add more benchmarks. You'd need to work with Deno APIs, Github APIs and APIs
 from various cloud providers.
 
+### Wasm binding generator for Deno APIs
+
+Deno has a large set of runtime APIs. We would like to auto-generate Wasm bindings
+for these runtime APIs using existing typings or doc output similar to `web_sys`.
+You'd need to work with the Deno CLI and Rust wasm_bindgen toolchain.
+
 ### 
 
 ## License
